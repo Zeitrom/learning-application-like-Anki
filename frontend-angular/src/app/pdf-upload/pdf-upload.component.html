@@ -1,0 +1,11 @@
+<div class="container mt-5">
+    <h2 class="text-center">Déposez votre document de cours en format PDF</h2>
+    <div class="d-flex justify-content-center">
+      <div class="file-drop-area mt-3">
+        <span class="fake-btn">Choisissez un fichier</span>
+        <span class="file-msg">ou glissez et déposez ici</span>
+        <input class="file-input" type="file" (change)="onFileSelect($event)" accept=".pdf" />
+      </div>
+    </div>
+  </div>
+  
