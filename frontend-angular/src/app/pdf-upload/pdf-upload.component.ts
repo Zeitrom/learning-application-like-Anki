@@ -17,4 +17,16 @@ export class PdfUploadComponent {
       alert('Veuillez sélectionner un fichier PDF.');
     }
   }
+  lancerCreationFiches(): void {
+    // Implement your logic here
+    console.log('Launching flashcard creation...');
+    // You would typically handle the file upload here and then call a service to create flashcards
+  }
+
+  // Method to translate the PDF
+  traduirePDF(): void {
+    // Implement your logic here
+    console.log('Translating PDF...');
+    // You would handle the file upload here and then call a service to translate the PDF
+  }
 }
