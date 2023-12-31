@@ -4,13 +4,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 import { LoginComponent } from './login/login.component';
-import { AppRoutingModule } from './app-routing.module'; // Ensure this file defines and exports a 'routes' array.
+import { AppRoutingModule } from './app-routing.module'; 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { StudyViewComponent } from './study-view/study-view.component';
 import { FlashcardManagementComponent } from './flashcard-management/flashcard-management.component';
-import { UserProfileSettingsComponent } from './user-profile-settings/user-profile-settings.component';
 import { PdfUploadComponent } from './pdf-upload/pdf-upload.component';
 import { FormsModule } from '@angular/forms';
 import { RegisterComponent } from './register/register.component';
@@ -22,10 +19,7 @@ import { RegisterComponent } from './register/register.component';
     RegisterComponent,
     AppComponent,
     HomeComponent,
-    DashboardComponent,
-    StudyViewComponent,
     FlashcardManagementComponent,
-    UserProfileSettingsComponent,
     PdfUploadComponent,
     LoginComponent
 

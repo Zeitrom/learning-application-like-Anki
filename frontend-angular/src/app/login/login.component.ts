@@ -1,6 +1,7 @@
+// login.component.ts
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { FormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms'; // Assurez-vous d'avoir cette importation
 
 @Component({
   selector: 'app-login',
