@@ -1,6 +1,6 @@
-// register.component.ts
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { UserService } from '../user.service'; // Assurez-vous que le chemin est correct
 
 @Component({
   selector: 'app-register',
@@ -12,18 +12,29 @@ export class RegisterComponent {
     username: '',
     email: '',
     password: '',
-    confirmPassword: '' // Assurez-vous que cette ligne est présente dans votre code
+    confirmPassword: ''
   };
 
-  constructor(private router: Router) {}
+  constructor(private userService: UserService, private router: Router) {}
 
   onSubmit(): void {
-    // Logique de l'inscription
+    if (this.user.password !== this.user.confirmPassword) {
+      alert('Les mots de passe ne correspondent pas.');
+      return;
+    }
 
-    // Redirection vers la page d'accueil
-    this.router.navigate(['/']);
-
-    // Affichage de la notification de succès
-    alert('Inscription réussie ! Vous êtes bien inscrit.');
+    this.userService.register(this.user).subscribe({
+      next: (response) => {
+        // Redirection vers la page d'accueil
+        this.router.navigate(['/']);
+        // Affichage de la notification de succès
+        alert('Inscription réussie ! Vous êtes bien inscrit.');
+      },
+      error: (error) => {
+        // Gérer l'erreur ici
+        console.error('Erreur lors de l\'inscription:', error);
+        alert('Erreur lors de l\'inscription.');
+      }
+    });
   }
 }
