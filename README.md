@@ -1,4 +1,5 @@
-﻿# learning-application-like-Anki
+### Présentation du site 
+
 ![acceuil](https://github.com/Zeitrom/learning-application-like-Anki/assets/133644357/15cb7d3b-94b3-47aa-8618-f37c2e44cd09)
 Voici la page d'accueil de notre site internet , vous pouvez apercevoir les avis des utilisateurs sur notre technologie qui s'accéde via le bouton central de la page
 
@@ -13,7 +14,7 @@ Le principe est simple : vous glissez votre cours pdf sur le site internet , le 
 Il y a également la possibilité de rechecher un cours disponible dans notre base de données afin de satisfaire les attentes de l'utilisateur : 
 ![Capture d'écran 2023-12-31 184702](https://github.com/Zeitrom/learning-application-like-Anki/assets/133644357/e4d1edc2-d95f-4bb4-b56f-9767133e96d4)
 
-
+### Distribution
 
 Ce site web, fruit d'une collaboration harmonieuse entre Raphaël Véron et moi-même, Hugo Verley, incarne une parfaite équidistribution des compétences, avec une réalisation méticuleuse tant au niveau du back-end que du front-end. 
 
