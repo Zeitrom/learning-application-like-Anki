@@ -14,9 +14,26 @@ Le principe est simple : vous glissez votre cours pdf sur le site internet , le 
 Il y a également la possibilité de rechecher un cours disponible dans notre base de données afin de satisfaire les attentes de l'utilisateur : 
 ![Capture d'écran 2023-12-31 184702](https://github.com/Zeitrom/learning-application-like-Anki/assets/133644357/e4d1edc2-d95f-4bb4-b56f-9767133e96d4)
 
+### Technologies Utilisées
+
+- HTML,SCSS,TypeScript,Javascript 
+
+### Installation et Execution
+
+Pour executer le site web :
+
+1. Clone the Git repository.
+2. Installation des dépendances via `npm install`.
+3. Lancer `ng serve`.
+
 ### Distribution
 
 Ce site web, fruit d'une collaboration harmonieuse entre Raphaël Véron et moi-même, Hugo Verley, incarne une parfaite équidistribution des compétences, avec une réalisation méticuleuse tant au niveau du back-end que du front-end. 
+
+### License
+
+Open-source Project. 
+Feel free to use it.
 
 ### Contact
 
