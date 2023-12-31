@@ -14,3 +14,12 @@ Il y a également la possibilité de rechecher un cours disponible dans notre ba
 ![Capture d'écran 2023-12-31 184702](https://github.com/Zeitrom/learning-application-like-Anki/assets/133644357/e4d1edc2-d95f-4bb4-b56f-9767133e96d4)
 
 
+
+Ce site web, fruit d'une collaboration harmonieuse entre Raphaël Véron et moi-même, Hugo Verley, incarne une parfaite équidistribution des compétences, avec une réalisation méticuleuse tant au niveau du back-end que du front-end. 
+
+Contact
+Raphael Veron
+Email: Raph.veron@gmail.com
+School Email: Raphael.veron@edu.devinci.fr
+Hugo Verley
+School Email: Hugo.verley@edu.devinci.fr
