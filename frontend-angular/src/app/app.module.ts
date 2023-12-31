@@ -16,6 +16,7 @@ import { RegisterComponent } from './register/register.component';
 
 
 
+
 @NgModule({
   declarations: [
     RegisterComponent,
@@ -25,6 +26,7 @@ import { RegisterComponent } from './register/register.component';
     PdfUploadComponent,
     LessonSearchPageComponent,
     LoginComponent
+
 
     // Any other components that belong to this module must be declared here.
   ],
