@@ -17,9 +17,10 @@ Il y a également la possibilité de rechecher un cours disponible dans notre ba
 
 Ce site web, fruit d'une collaboration harmonieuse entre Raphaël Véron et moi-même, Hugo Verley, incarne une parfaite équidistribution des compétences, avec une réalisation méticuleuse tant au niveau du back-end que du front-end. 
 
-Contact
-Raphael Veron
-Email: Raph.veron@gmail.com
-School Email: Raphael.veron@edu.devinci.fr
-Hugo Verley
-School Email: Hugo.verley@edu.devinci.fr
+### Contact
+
+- Raphael Veron
+  - Email: [Raph.veron@gmail.com](mailto:Raph.veron@gmail.com)
+  - School Email: [Raphael.veron@edu.devinci.fr](mailto:Raphael.veron@edu.devinci.fr)
+- Hugo Verley
+  - School Email: [Hugo.verley@edu.devinci.fr](mailto:Hugo.verley@edu.devinci.fr)
